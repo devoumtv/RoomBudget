@@ -1,0 +1,31 @@
+name: room_budget
+description: Estimate furniture costs room by room.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.8
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.5.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: false
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: icon.png
+  remove_alpha_ios: true
+  background_color_ios: "#1A8FE3"
+  adaptive_icon_background: "#1A8FE3"
+  adaptive_icon_foreground: icon.png
+  adaptive_icon_foreground_inset: 0
